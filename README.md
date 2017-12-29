@@ -1,2 +1,3 @@
-# huntil
-Illinois hunting
+# Hunt Illinois
+
+Simplify site identification for hunting in IL.
