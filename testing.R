@@ -3,6 +3,7 @@
 library(colorout)
 library(xml2)
 library(rvest)
+library(RJSONIO)
 
 devtools::load_all()
 
@@ -19,3 +20,8 @@ species_tables <- get_species_tables(park_htmls)
 seasons_link <-
   get_fact_sheet_html() %>%
   get_fact_sheet_link("statewide seasons")
+
+seasons_data <- get_statewide_seasons_data(seasons_link)
+
+
+geocode("Anderson Lake State Park Illinois")
