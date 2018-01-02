@@ -1,9 +1,11 @@
 Package: huntil
 Title: Hunt Illinois
 Version: 0.0.0.9000
-Authors@R: person("Adam", "Austin", role = c("aut", "cre"))
+Authors@R: person("Adam", "Austin", email = "adam.corresponds@gmail.com", role = c("aut", "cre"))
 Description: Find squirrels faster.
 Depends: R (>= 3.4.1)
 License: MIT
 Encoding: UTF-8
 LazyData: true
+Imports:
+  rvest
