@@ -14,9 +14,9 @@ parse_seasons_text <- function(raw_seasons) {
 
 
 get_statewide_seasons_data <- function(statewide_seasons_url) {
-  seasons_html  <- read_html(statewide_seasons_url)
-  seasons_nodes <- html_nodes(seasons_html, xpath = "//div[@class='item link-item']")
-  seasons_text  <- html_text(seasons_nodes)
+  seasons_html  <- xml2::read_html(statewide_seasons_url)
+  seasons_nodes <- rvest::html_nodes(seasons_html, xpath = "//div[@class='item link-item']")
+  seasons_text  <- rvest::html_text(seasons_nodes)
   
   seasons_data <- parse_seasons_text(seasons_text)
   seasons_data

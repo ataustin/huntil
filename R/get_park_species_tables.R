@@ -25,7 +25,8 @@ clean_tables <- function(park_tables) {
 
 
 get_species_tables <- function(park_htmls) {
-  park_tables_list <- lapply(park_htmls, html_table, header = TRUE, fill = TRUE)
+  park_tables_list <- lapply(park_htmls, rvest::html_table,
+                             header = TRUE, fill = TRUE)
   table_list       <- lapply(park_tables_list, clean_tables)
   table_list
 }
