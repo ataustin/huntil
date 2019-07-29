@@ -1,36 +1,71 @@
-check_geocode <- function(api_return) {
-  status_ok <- api_return$status == "OK"
-  state_il  <- api_return$results[[1]]$address_components[[6]]$short_name == "IL"
+read_park_kml <- function() {
+  kml_path <- system.file("kml", "public-hunting-areas-il.kml",
+                          package = "huntil")
 
-  pass <- length_one && status_ok && state_il
-  pass
+  xml2::read_html(kml_path)
 }
 
 
-
-geocode <- function(query) {
-  url <- "http://maps.google.com/maps/api/geocode/json?address="
-  url <- URLencode(paste(url, query, "&sensor=false", sep = ""))
-  x   <- jsonlite::fromJSON(url, simplify = FALSE)
-
-  if (check_geocode(x)) {
-    result_components <- x$results[[1]]$address_components
-    geometry          <- x$results[[1]]$geometry
-    out <- data.frame(lat = geometry$location$lat,
-                      lon = geometry$location$lng,
-                      long_name = result_components[[1]]$long_name)
-  } else {
-    out <- data.frame(lat = NA, lon = NA, long_name = NA)
-  }
-
-  Sys.sleep(0.25)  # API only allows 5 requests per second, slow it down to max of 4 for safety
-  out
+extract_park_name <- function(park_kml) {
+  get_kml_text(park_kml, "//folder/placemark/name")
 }
 
 
-clean_site_name <- function(site_name) {
-  site_name <- gsub(" - .*", "", site_name)
-  site_name <- gsub("(.*)", "", site_name)
-  site_name <- gsub(" /.*", "", site_name)
-  site_name <- gsub("sfwa", "", ignore.case = TRUE)
+extract_park_url <- function(park_kml) {
+  url_text       <- get_kml_text(park_kml, "//folder/placemark/description")
+  url_text_clean <- clean_park_url(url_text)
+
+  url_text_clean
+}
+
+
+clean_park_url <- function(park_url) {
+  stringr::str_extract(park_url, "http.*aspx")
+}
+
+
+extract_park_coordinates <- function(park_kml) {
+  coord_text <- get_kml_text(park_kml, "//folder/placemark/point/coordinates")
+  coord_text_clean <- clean_coordinates(coord_text)
+
+  coord_text_clean
+}
+
+
+clean_coordinates <- function(coordinate_text) {
+  coord_no_whitespace <- gsub("[[:space:]]", "", coordinate_text)
+  coord_no_elevation  <- gsub(",0", "", coord_no_whitespace)
+
+  coord_no_elevation
+}
+
+
+get_kml_text <- function(kml, xpath) {
+  kml_nodes <- xml2::xml_find_all(kml, xpath)
+  kml_text  <- xml2::xml_text(kml_nodes)
+
+  kml_text
+}
+
+
+get_geocoded_data <- function(park_kml) {
+  park_name  <- extract_park_name(park_kml)
+  park_url   <- extract_park_url(park_kml)
+  park_coord <- extract_park_coordinates(park_kml)
+
+  park_df <- data.frame(name = park_name,
+                        url  = park_url,
+                        stringsAsFactors = FALSE)
+  park_df[3:4] <- convert_coords_to_data(park_coord)
+
+  park_df
+}
+
+
+convert_coords_to_data <- function(raw_coord_text) {
+  coord_split <- strsplit(raw_coord_text, split = ",")
+  coord_mat   <- do.call(rbind, coord_split)
+  coord_df    <- setNames(as.data.frame(coord_mat), c("lon", "lat"))
+
+  coord_df
 }
