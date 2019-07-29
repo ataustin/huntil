@@ -20,7 +20,10 @@ extract_park_url <- function(park_kml) {
 
 
 clean_park_url <- function(park_url) {
-  stringr::str_extract(park_url, "http.*aspx")
+  url_raw   <- stringr::str_extract(park_url, "http.*aspx")
+  url_https <-  gsub("http\\:", "https:", url_raw)
+
+  url_https
 }
 
 
