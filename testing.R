@@ -1,8 +1,5 @@
-# NOTE: I had to re-install selectr in order to get html_table to work
-
-library(colorout)
-# library(huntil)
-# library(RJSONIO)
+library(rvest)
+library(jsonlite)
 
 devtools::load_all()
 
@@ -22,4 +19,14 @@ seasons_link <-
   get_statewide_seasons_data()
 
 
-geocode("Anderson Lake State Park Illinois")
+geocoded_data <-
+  read_park_kml() %>%
+  get_geocoded_data()
+
+
+clean_site_name <- function(site_name) {
+  site_name <- gsub(" - .*", "", site_name)
+  site_name <- gsub("(.*)", "", site_name)
+  site_name <- gsub(" /.*", "", site_name)
+  site_name <- gsub("sfwa", "", ignore.case = TRUE)
+}

@@ -1,0 +1,2592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Illinois Public Hunting Areas</name>
+    <description>Public hunting areas in Illinois as of 2015</description>
+    <Style id="icon-503-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-62AF44-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-62AF44-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-62AF44">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-62AF44-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-62AF44-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-B7DBAB-normal">
+      <IconStyle>
+        <color>ffabdbb7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-B7DBAB-highlight">
+      <IconStyle>
+        <color>ffabdbb7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-B7DBAB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-B7DBAB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-B7DBAB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Northwestern Illinois Region 1</name>
+      <Placemark>
+        <name>Anderson Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/AndersonLake.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.2045989,40.1940856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Apple River Canyon - Salem & Thompson Units Hunter Fact Sheet]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/AppleRiverCanyon-SalemandThompsonUnits.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.1368356,42.4062523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Argyle Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ArgyleLake.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.8014011,40.4525968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banner Marsh</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BannerMarsh.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8584652,40.5290666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Bend</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BigBend.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.018239,41.6489457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big River</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BigRiver.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.9203625,41.0407144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bradford Habitat Area</name>
+        <description><![CDATA[http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BradfordHabitatArea.aspx<br><br>Rough location, see fact sheet for directions]]></description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7350407,41.16822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Rock</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CastleRock.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3842936,41.9724772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Rock Deer</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CastleRockDeer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3809462,41.9730515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Donnelley State Fish & Wildlife Area]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DonnelleyStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3295336,41.2921892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Double T State Fish and Wildlife Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DoubleTStateFishandWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.111655,40.597291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dublin Highlands Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DublinHighlandsPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7719908,42.2918976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franklin Creek - Firearm Deer</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FranklinCreekFirearmDeer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3346834,41.8512305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franklin Creek State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FranklinCreek.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3362713,41.8513903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>French Bluff Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FrenchBluffNaturalArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0663633,41.971568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>George S. Park State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GeorgeSParkStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2970467,41.1223944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green River</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GreenRiver.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5085979,41.6352193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green River - Deer and Fall Turkey</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GreenRiverDeerFallTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5108938,41.6354117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green River Furbearer</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GreenRiverFurbearer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5097351,41.6360372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green River Spring Turkey</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GreenRiverSpringTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.507997,41.6366145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green River Upland Game</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GreenRiverUplandGame.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5066023,41.636374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanover Bluff State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HanoverBluffStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.2870178,42.2300427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Henderson Creek</name>
+        <description>Henderson Creek SFWA</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.9512186,40.8941808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hennepin Canal (Dove)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HennepinCanalDove.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.694829,41.3780323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hennepin Canal State Trail Archery Deer </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HennepinCanalStateTrailArcheryDeer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.6926832,41.37895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ilo Dillin State Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/IloDillin.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3365932,40.3747485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Iris & Jack Witkowsky]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/IrisJackWitkowsky.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.3471851,42.301246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnson Sauk Trail State Recreation Area Dove</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JohnsonSaukTrailStateRecreationAreaDove.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8929691,41.3224276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnson Sauk Trail State Recreation Area (Archery Deer)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JohnsonSaukTrailStateRecreationArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.893055,41.3212029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnson Sauk Trail State Recreation Area (Upland)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JohnsonSaukTrailUpland.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8897076,41.3218475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnson Sauk Trail State Recreation Area Spring Turkey</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JohnsonSaukTrailStateRecreationAreaSpringTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8912525,41.3204293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jubilee College</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JubileeCollege.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8040485,40.8249164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kishwaukee River (Spring Turkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Documents/KishwaukeeRiverHunterMap.pdf</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8762832,42.0971557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kishwaukee River</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KishwaukeeRiverStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8771844,42.0981428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lake DePue State Fish & Wildlife Area]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LakeDePueStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3379021,41.3080516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake DePue Three I Unit </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DePueThreeIUnit.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3421936,41.3087608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Le-Aqua-Na </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LakeLe-Aqua-Na.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8356771,42.4196549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Sinnissippi</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LakeSinnissippi.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.6360564,41.782209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Rock Creek State Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LittleRockCreekStateHabitatArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8787642,41.9880933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lowden Memorial State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LowdenMemorialStatePark.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3255854,42.0337075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lowden-Miller</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Lowden-Miller.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3623638,41.959171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lowden-Miller Firearm Deer</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Lowden-MillerFirearmDeer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3651962,41.9587242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mackinaw River</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MackinawRiver.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2940855,40.5521731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manito Pheasant Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ManitoPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7879714,40.4633663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Marseilles State Fish & Wildlife Area (Upland)]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarseillesStateFishWildlifeAreaUpland.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6782074,41.2882552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marseilles State Fish and Wildlife Area (Deer/Archery Turkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarseillesStateFishAndWildlifeAreaDeerArcheryTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6792374,41.2867073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marseilles State Fish and Wildlife Area (Spring Turkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarseillesStateFishAndWildlifeAreaSpringTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6849022,41.2872233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marshall State Fish and Wildlife Area - Duck Ranch</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarshallDuckRanch.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3524933,41.0979172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marshall State Fish and Wildlife Area - Marshall Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarshallStateFishAndWildlifeArea-MarshallUnit.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4348907,40.9856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marshall State Fish and Wildlife Area - Sparland Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarshallStateFishWildlifeArea-SparlandUnit.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4245911,41.0528191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marshall State Fish and Wildlife Area (Spring Turkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarshallSpringTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4307709,41.0394844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marshall State Fish and Wildlife Area (Upland) </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MarshallStateFishWildlifeAreaUpland.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4320583,41.0469936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matthiessen Dove</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MatthiessenDove.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.02565,41.2903189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matthiessen State Park (Squirrel, Furbearer, Spring Turkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MatthiessenStateParkSquirrelFurbearerSpringTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.0199852,41.2989602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mautino (SpringTurkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Documents/MautinoHunterMap.pdf</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7259855,41.3250704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mautino State Fish & Wildlife Area ]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MautinoStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.724741,41.3261661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maytown</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Maytown.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3979406,41.6153621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miller-Anderson Woods State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Miller-AndersonWoodsStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4087553,41.241965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mississippi Palisades</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MississippiPalisades.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.1603317,42.1397321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mississippi River Pool 16</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MississippiRiverPool16.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.650425,41.4629261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mississippi River Pools 17 & 18]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MississippiRiverPools.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -91.0917664,41.2277326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mitchell's Grove Nature Preserve]]></name>
+        <description><![CDATA[http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Mitchell'sGroveNaturePreserve.aspx]]></description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.0877056,41.3783543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morrison Rockwood</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MorrisonRockwood.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9644661,41.8420714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nachusa Prairie</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/NachusaPrairie.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3240619,41.8971822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pekin Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PekinLake.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.6501541,40.594403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powerton Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PowertonLake.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7048283,40.5441348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rall Woods</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RallWoods.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.2062941,42.2053155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rice Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RiceLake.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9304771,40.4640581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rice Lake Big Lake Walk-in</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RiceLakeBigLakeWalkIn.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9182892,40.4646458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rice Lake Cooperas Creek</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RiceLakeCooperasCreek.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8924756,40.4895044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock Cut State Park (Disabled Hunt)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RockCutStatePark-DisabledHunt.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9751816,42.3464922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rockton Bog</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RocktonBogStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1054082,42.491245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sand Prairie</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SandPrairie.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.622345,41.6315466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sandy Ford</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SandyFordLandWaterReserve.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8981915,41.1970628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shabbona Lake (Dove/Deer)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ShabbonaLakeIndianCreekDoveDeer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8648891,41.743684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shabonna Lake (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ShabbonaLakeWaterfowl.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8628292,41.7409302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snakeden Hollow</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SnakedenHollow.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0727844,41.0155268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snakeden Hollow (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SnakedenHollowWaterfowl.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0752735,41.0136487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spoon River </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SpoonRiverStateForest.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0893927,40.9411057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SpringLake.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8925829,40.4416235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Lake - Bottoms Unit Waterfowl</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SpringLakeBottomsUnit.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9037838,40.4381286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Lake Waterfowl</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SpringLakeWaterfowl.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8954582,40.4385859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Starved Rock / Matthiessen DOO Shotgun Deer</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/StarvedRockMatthiessenDOODeer.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9735508,41.3095345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Starved Rock / Mathiessen (Deer/Turkey)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/StarvedRockMatthiessenStateParkDeerTurkey.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9877987,41.3170128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Starved Rock Pool</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/StarvedRockPool.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9511061,41.3154011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steward Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/StewardHabitatArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9760399,41.8202792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tapley Woods</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/TapleyWoods.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.2957082,42.3564826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victoria Pheasant Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/VictoriaPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.1152921,41.0467185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wards Grove</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WardsGroveNaturePreserve.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9474716,42.3231116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Pines</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WhitePinesStatePark.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4710684,41.9955571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitefield Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WhitefieldPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5026755,41.1105126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winston Tunnel</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WinstonTunnelStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -90.3850794,42.3352709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodford Upland</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WoodfordUpland.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4549751,40.8810735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodford Waterfowl</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WoodfordWaterfowl.aspx</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4647598,40.8836044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Northeastern Illinois Region 2</name>
+      <Placemark>
+        <name>Braidwood State Fish and Wildlife Area (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BraidwoodStateFishAndWildlifeAreaWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2083702,41.2172742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buffalo Rock State Park/Effigy Tumuli /Pecumsagan Creek (Black Ball Mine) Nature Preserve</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BuffaloRockStateParkEffigyTumuliPecumsaganCreek(BlackBallMine)NaturePreserve.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9117205,41.3293647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chain O'Lakes]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ChainOLakesStatePark.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1903458,42.4632963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chain O'Lakes (Waterfowl)]]></name>
+        <description><![CDATA[http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ChainO'LakesGrassLakeWaterfowl.aspx]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1809473,42.4608585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Des Plaines Game Propagation Center</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DesPlainesGamePropagationCenter.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1793165,41.3280031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Des Plaines Wildlife Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DesPlainesStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2051945,41.3822184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Des Plaines Wildlife (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DesPlainesStateFishandWildlifeAreaWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2186699,41.3869194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox River (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FoxRiverWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.4883499,41.6408481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goose Lake Prairie</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GooseLakePrairieHeideckeLakeDeer.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.3081055,41.3694659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heidecke Lake (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HeideckeLakeWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.3372879,41.3703677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>James Pate / Heron Woods</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JamesPatePhilipStateParkandHeronWoodsStateHabitatArea.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2587957,41.9985711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kankakee River (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KankakeeRiverWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9657269,41.1880851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kankakee River State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KankakeeRiverStatePark.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9858971,41.2001629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kankakee River State Park (Furbearer)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KankakeeRiverStateParkFurbearer.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9788589,41.1963523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazonia (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MazoniaWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2733011,41.207589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazonia-Braidwood</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Mazonia.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2556629,41.1930585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Momence Wetlands (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MomenceWetlandLandWaterReserveWaterFowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5985003,41.1610477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Momence Wetlands</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MomenceWetlandsLandWaterReserve.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5915909,41.1628893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moraine Hills</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MoraineHillsStateParkFirearmDeer.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2312441,42.3154643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redwing Slough / Deer Lake (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RedwingSloughDeerLakeWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0524588,42.4764651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Springs</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SilverSprings.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5169315,41.6263501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Volo Bog Archery Deer</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/VoloBogMoraineHillsArcheryDeer.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1856251,42.3530892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>William Powers (Waterfowl)</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WilliamPowersWaterfowl.aspx</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5374961,41.6597997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>East-Central Illinois Region 3</name>
+      <Placemark>
+        <name>Birkbeck Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BirkbeckHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8703179,40.2018544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Butterfield Trail State Recreation Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ButterfieldTrailStateRecreationArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8993797,40.7504269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clifton Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CliftonPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8974056,40.9433586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinton Lake Handicapped Waterfowl </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ClintonLakeHandicappedWaterfowl.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7978554,40.1540805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinton Lake SRA (Handicapped/Deer) </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ClintonLakeSRAHandicappedDeer.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8038635,40.1528996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinton Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ClintonLakeStateRecreationArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8115883,40.1573605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Creek</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/EagleCreekStatePark.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7152863,39.495166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finfrock</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Finfrock.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -89.0947008,40.2558177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Ridge State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FoxRidge.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1530094,39.4044993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gifford Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GiffordPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0529094,40.3256898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hallsville Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Hallsville.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -89.097898,40.1648711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Harry "Babe" Woodyard]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HarryBabeWoodyard.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5673437,39.9590304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herschel Workman</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HerschelWorkman.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9197001,40.4595849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Springs</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HiddenSprings.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6941719,39.3168356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hindsboro Pheasant</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Hindsboro.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0717492,39.6880349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iroquois County State Conservation Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/IroquoisCounty.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5741673,40.9903296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kickapoo</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Kickapoo.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7375031,40.1361033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kickapoo Waterfowl</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KickapooWaterfowl.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7323532,40.1386624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larry D. Closson Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LarryDClossonHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1046653,39.6642035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lincoln Trail State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LincolnTrailStatePark.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.711668,39.3464119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loda Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/LodaPheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0461287,40.530355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Middle Fork </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MiddleFork.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7456141,40.1464047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milks Grove Pheasant Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MilksGrovePheasantHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0399275,40.9274889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moraine View</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MoraineViewDeerandTurkey.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7330103,40.4094115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moraine View Upland Game</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MoraineViewUplandGame.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7351561,40.4102611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paul C. Burrus</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PaulCBurrus.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0861902,39.3996909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perdueville Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PerduevilleHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2103229,40.4056372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salt Creek Waterfowl Management Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SaltCreekWaterfowlManagementArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6872625,40.2236644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saybrook Habitat Area</name>
+        <description>5 areas. http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SaybrookHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5304713,40.4880846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelbyville Kaskaskia Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ShelbyvilleKaskaskiaUnit.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5483456,39.5755271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelbyville Okaw Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ShelbyvilleOkawUnit.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7155437,39.6219208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sibley Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SibleyHabitatArea.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.3947086,40.5676111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walnut Point</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WalnutPoint.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0357218,39.7051066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weldon Springs - Piatt County Unit </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WeldonSprings-PiattCountyUnit.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.616066,40.0092751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Willow Creek</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WillowCreek.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6881933,39.7249963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wolf Creek State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WolfCreekStatePark.aspx</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6881638,39.4822492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>West-Central Illinois Region 4</name>
+      <Placemark>
+        <name>Beaver Dam State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BeaverDam.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9931335,39.2091131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bohm Woods Nature Preserve</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BohmWoodsNaturePreserve.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0106859,38.8089482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carlyle Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CarlyleLake.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2069244,38.8104196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cedar Glen State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CedarGlenStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -91.3817453,40.3776419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffeen Lake State Fish and Wildlife Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CoffeenLakeStateFishAndWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4025326,39.0522517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Copper Head Hollow </name>
+        <description>Contact Pere Marquette State Park for exact location. http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CopperHeadHollow.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.48563,38.9913706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edward R. Madigan State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/EdwardRMadigan.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3871689,40.1243893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eldon Hazlet State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/EldonHazlet.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3214226,38.6706346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort de Chartres - Illinois Historic Preservation Agency </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FortdeChartresIllinoisHistoricPreservationAgency.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.162735,38.0867092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Kaskaskia</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FortKaskaskiaHistoricSite.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9108863,37.9706245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frank Holten</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FrankHolten.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0913668,38.5859144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Freeman Mine</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FreemanMine.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.6360135,39.439988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Goode's Woods Nature Preserve]]></name>
+        <description><![CDATA[http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Goode'sWoodsNaturePreserve.aspx]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9400902,39.4605834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Horseshoe Lake - Madison</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HorseshoeLakeMadison.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0933838,38.6856438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Horseshoe Lake - Madison CORPS</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HorseshoeLake-MadisonCORPS.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.1567268,38.754351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jim Edgar Panther Creek</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/JimEdgarPantherCreek.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.1050568,40.0144685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaskaskia River</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KaskaskiaRiver.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8782921,38.2136368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kidd Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KiddLakeStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.1810169,38.1463363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meredosia Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MeredosiaLake.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.567255,39.8463059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mississippi River Pools 21, 22 & 24]]></name>
+        <description>On the Illinois side of the Mississippi River from Clarksville, MO (Dam 24) to Meyer, IL (Dam 20). http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MississippiRiverPools212224.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -91.3651371,39.73234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mississippi River State Wildlife Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MississippiRiverStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.4600525,38.9714212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakford State Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/OakfordStateHabitatArea.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9436092,40.1326746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peabody River King</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PeabodyRiverKing.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8534012,38.3357992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pere Marquette</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PereMarquette.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.5064011,38.9823641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Randolph County State Recreation Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RandolphCountyStateRecreationArea.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8028469,37.975902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ray Norbut</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RayNorbut.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.6445026,39.6822884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ray Norbut - Dutch Creek Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RayNorbutDutchCreekUnit.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -91.0200119,39.5703667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sand Ridge</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SandRidge.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8775196,40.4025817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sangamon River</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SangamonRiver.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7408128,39.9143118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanganois</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Sanganois.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.3230667,40.1157584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sangchris Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SangchrisLake.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4705963,39.6362327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siloam Springs</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SiloamSprings.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.9218216,39.88827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siloam Springs Buckhorn Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SiloamSprings-BuckhornUnit.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.8599377,39.9112505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Shore</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SouthShoreStatePark.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2934418,38.6270633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turkey Bluffs</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/TurkeyBluffs.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7589874,37.8755648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washington County</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WashingtonCounty.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3442535,38.2838733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weinberg-King State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WeinbergKingStatePark.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.8969522,40.2365243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weinberg-King Scripps Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Weinberg-KingStatePark-ScrippsUnit.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.6350183,40.1010209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weinberg-King Spunky Bottoms</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Weinberg-KingStatePark-SpunkyBottomsUnit.aspx</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -90.5562258,39.9173071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Southern Illinois Region 5</name>
+      <Placemark>
+        <name>Alvah Borah</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/AlvahBorah.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2492685,38.2625803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beall Woods</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/BeallWoodsStatePark.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8290844,38.3554553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cache River State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CacheRiver.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9614487,37.3732949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campbell Pond</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CampbellPond.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1797161,37.9441975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Bend</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CapeBend.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4578934,37.2871993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cedar/Draper Bluff</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CedarDraperBluff.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.0320015,37.5367508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chauncey Marsh</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/ChaunceyMarsh.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7840233,38.846493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City of Carbondale - Cedar Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CarbondaleCedarLake.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2831421,37.6155912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crawford County Conservation Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CrawfordCounty.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7127838,39.0895679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cypress Pond</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/CypressPond.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.0371084,37.4747559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deer Pond</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DeerPond.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9375877,37.4347946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Devil's Island]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DevilsIsland.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4318008,37.3406837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dixon Spring - Dog Island </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/DixonSpringDogIsland.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.4374094,37.1718757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferne Clyffe</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FerneClyffe.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9859962,37.5306931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flag Pond</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FlagPond.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.318212,38.7166907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Massac</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/FortMassac.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6896229,37.1495766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giant City State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/GiantCityStatePark.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1888142,37.6069902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hamilton County</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HamiltonCounty.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.3986568,38.0576884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Horseshoe Lake - Alexander County</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/HorseshoeLakeAlexander.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3433094,37.1493713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kinkaid Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/KinkaidLake.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4541168,37.8089702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meeker State Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/Meeker.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2177472,39.1591997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mermet Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MermetLake.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8438177,37.2597085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Vernon Game Propagation Center</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/MtVernonGPC.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8828814,38.2396464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Newton Lake State Fish & Wildlife Area]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/NewtonLakeStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2868195,38.9173493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prairie Ridge State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PrairieRidgeStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2792234,38.9137765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PyramidStatePark.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4112015,38.0226724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid State Park - Captain Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PyramidStatePark-CaptainUnit.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5048428,38.0161135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid State Park - Denmark Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PyramidStatePark-DenmarkUnit.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5057869,37.9907514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid State Park - East Conant Unit</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PyramidStatePark-EastConantUnit.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4420576,38.0420752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid State Park - Galum Unit </name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/PyramidStatePark-GalumUnit.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4746733,38.0231795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramsey Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RamseyLake.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1348267,39.1649396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rauchfuss Hill</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RauchfussHill.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.4843373,37.3769952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Hills</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RedHills.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8383112,38.7305855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rend Lake State Fish and Wildlife Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/RendLake.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9996433,38.2023738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sahara Woods State Fish and Wildlife Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SaharaWoodsSFWA.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6754608,37.7192014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saline County</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SalineCounty.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.3853531,37.6950952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sam Dale Lake</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SamDaleLake.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5813904,38.5424594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sam Parr</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SamParrStateFishWildlifeArea.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1225824,39.019117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sielbeck Forest</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SielbeckForest.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7604332,37.2315927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skinner Farm State Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/SkinnerFarmI-24.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8533449,37.3968916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stephen A. Forbes</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/StephenAForbes.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7669992,38.7258649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ten Mile Creek State Fish and Wildlife Area</name>
+        <description>Numerous Sites. http://www.dnr.illinois.gov/hunting/FactSheets/Pages/TenMileCreek.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6256307,38.0819211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail of Tears State Forest</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/TrailofTears.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3597031,37.4888889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Union County State Fish & Wildlife Area]]></name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/UnionCounty.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3772125,37.3974371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayne Fitzgerrell State Park</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WayneFitzgerrell.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9487886,38.0942075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wildcat Hollow State Habitat Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WildcatHollowStateHabitatArea.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6074829,38.9933052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wise Ridge State Natural Area</name>
+        <description>http://www.dnr.illinois.gov/hunting/FactSheets/Pages/WiseRidgeStateNaturalArea.aspx</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -88.7571716,37.5958719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
