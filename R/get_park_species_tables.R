@@ -24,7 +24,7 @@ clean_tables <- function(park_tables) {
 
 
 find_species_record <- function(table, species) {
-  if(!length(table)) return(NULL)
+  if(!length(table)) return(NA)
 
   column_has_species <- table[grepl(species, table, ignore.case = TRUE)]
   species_index      <- grep(species, column_has_species[[1]], ignore.case = TRUE)
@@ -35,12 +35,15 @@ find_species_record <- function(table, species) {
 
 
 
-get_species_tables <- function(park_htmls) {
+get_species_table_data <- function(park_htmls) {
   park_tables_list <- lapply(park_htmls, rvest::html_table,
                              header = TRUE, fill = TRUE)
   table_list       <- lapply(park_tables_list, clean_tables)
   species_records  <- lapply(table_list, find_species_record,
                              species = attr(park_htmls, "species"))
 
-  species_records
+  out <- tibble::tibble(park = gsub("^\\s|\\s$", "", names(species_records)),
+                        data = species_records)
+
+  out
 }
