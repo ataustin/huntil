@@ -8,7 +8,7 @@ get_park_url_data <- function(region_url) {
   park_urls  <- rvest::html_attr(url_nodes, name = "href")
   park_names <- rvest::html_text(url_nodes)
 
-  tibble::tibble(region         = clean_trailing_blanks(region_name),
-                 park_name      = park_names,
+  tibble::tibble(region         = clean_border_blanks(region_name),
+                 park_name      = clean_border_blanks(park_names),
                  fact_sheet_url = park_urls)
 }
