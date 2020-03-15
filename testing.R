@@ -5,7 +5,7 @@ devtools::load_all()
 
 park_url_data <-
   get_fact_sheet_top_level_html() %>%
-  get_region_fact_sheet_url("all regions") %>%
+  get_fact_sheet_url_data() %>%
   get_park_url_data()
 
 species_table_data <-
