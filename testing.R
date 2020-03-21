@@ -1,12 +1,15 @@
 library(rvest)
 library(jsonlite)
+library(dplyr)
+library(purrr)
 
 devtools::load_all()
 
-park_url_data <-
+site_url_data <-
   get_fact_sheet_top_level_html() %>%
   get_fact_sheet_url_data() %>%
-  get_park_url_data()
+  get_site_url_data()
+
 
 species_table_data <-
   park_links[2:3] %>%
