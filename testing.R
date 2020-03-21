@@ -10,15 +10,8 @@ site_url_data <-
   get_fact_sheet_url_data() %>%
   get_site_url_data()
 
-
-species_table_data <-
-  park_links[2:3] %>%
-  get_park_htmls(species = "squirrel") %>%
-  get_species_table_data()
-
-
 geocoded_data <-
-  read_park_kml() %>%
+  read_hunting_area_kml() %>%
   get_geocoded_data()
 
 
