@@ -2,22 +2,40 @@ library(rvest)
 library(jsonlite)
 library(dplyr)
 library(purrr)
+library(leaflet)
+library(htmltools)
 
 devtools::load_all()
 
-site_url_data <-
-  get_fact_sheet_top_level_html() %>%
-  get_fact_sheet_url_data() %>%
-  get_site_url_data()
+# site_url_data <-
+#   get_fact_sheet_top_level_html() %>%
+#   get_fact_sheet_url_data() %>%
+#   get_site_url_data()
 
-geocoded_data <-
-  read_hunting_area_kml() %>%
-  get_geocoded_data()
+# geocoded_data <-
+#   read_hunting_area_kml() %>%
+#   get_geocoded_data()
 
+# site_data <-
+#   site_url_data %>%
+#   left_join(geocoded_data, by = c("site_url_base" = "site_url_base_kml"))
 
-automated_data_set <-
+site_data <- build_huting_site_data()
 
+site_data$popup_link <-
+  paste(site_data$site_name,
+        paste0('<b><a href="', site_data$site_url, '">Area Website</a></b><br/>'),
+        sapply(site_data$species_row, function(x) knitr::kable(x, format = "html", row.names = FALSE)),
+        sep = "<br/>")
 
+site_data %>%
+  filter(is_species) %>%
+  leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addMarkers(~lon, ~lat,
+             popup = ~popup_link) %>%
+  htmlwidgets::saveWidget(file = "test.html",
+                          selfcontained = FALSE)
 
 
 seasons_data <-
