@@ -2,7 +2,8 @@ get_geocoded_data <- function(kml) {
   site_name     <- extract_site_name(kml)
   site_url      <- extract_site_url(kml)
   site_kml_data <- tibble::tibble(site_name_kml = site_name,
-                                  site_url_kml  = site_url)
+                                  site_url_kml  = site_url,
+                                  site_url_base_kml = basename(site_url_kml))
 
   raw_coords <- extract_site_coordinates(kml)
   coord_data <- convert_coords_to_data(raw_coords)
@@ -62,8 +63,9 @@ get_kml_text <- function(kml, xpath) {
 
 convert_coords_to_data <- function(raw_coord_text) {
   coord_split <- strsplit(raw_coord_text, split = ",")
-  coord_mat   <- do.call(rbind, coord_split)
-  coord_df    <- setNames(as.data.frame(coord_mat), c("lon", "lat"))
+  coord_num   <- lapply(coord_split, as.numeric)
+  coord_mat   <- do.call(rbind, coord_num)
+  coord_df    <- setNames(tibble::as_tibble(coord_mat), c("lon", "lat"))
 
   coord_df
 }
