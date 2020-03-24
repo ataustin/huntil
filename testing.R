@@ -23,7 +23,8 @@ devtools::load_all()
 site_data <- build_huting_site_data()
 
 site_data$popup_link <-
-  paste(site_data$site_name,
+  paste("<style> div.leaflet-popup-content {width:auto !important;}</style>",
+        site_data$site_name,
         paste0('<b><a href="', site_data$site_url, '">Area Website</a></b><br/>'),
         sapply(site_data$species_row, function(x) knitr::kable(x, format = "html", row.names = FALSE)),
         sep = "<br/>")

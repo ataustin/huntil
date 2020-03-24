@@ -3,7 +3,7 @@ get_site_url_data <- function(fact_sheet_url_data, species = "squirrel") {
                                    site_url = purrr::map(region_url, get_region_url_data))
   site_url_data   <- tidyr::unnest(site_url_nested, cols = site_url)
   
-  tmp <- site_url_data[1:10,]
+  tmp <- site_url_data[,]
   
   site_data <- dplyr::mutate(tmp,
                              site_html      = purrr::map(site_url, get_site_html),
@@ -41,7 +41,7 @@ clean_region_names <- function(region_names) {
 }
 
 
-get_site_html <- function(site_url, sleep_interval = 1) {
+get_site_html <- function(site_url, sleep_interval = 0.3) {
   Sys.sleep(sleep_interval)
   site_html   <- xml2::read_html(site_url)
 
@@ -50,7 +50,8 @@ get_site_html <- function(site_url, sleep_interval = 1) {
 
 
 get_site_table <- function(site_html) {
-  site_table    <- rvest::html_table(site_html, header = TRUE, fill = TRUE)
+  site_table <- tryCatch(rvest::html_table(site_html, header = TRUE, fill = TRUE),
+                         error = function(e) NULL)
   table_checked <- if(check_table(site_table)) site_table[[1]] else NULL
   
   table_checked
@@ -70,9 +71,11 @@ check_table <- function(table) {
 
 
 reduce_table <- function(table, species = "squirrel") {
-  species_ix <- apply(table, 1, function(row) any(grepl(species, row, ignore.case = TRUE)))
+  if(is.null(table)) return(NULL)
+
+  species_ix  <- apply(table, 1, function(row) any(grepl(species, row, ignore.case = TRUE)))
   species_row <- table[species_ix, ]
-  row <- if (length(species_row) == 0) NULL else species_row
+  row <- if(length(species_row) == 0) NULL else species_row
 
   row
 }
