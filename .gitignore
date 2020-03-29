@@ -4,3 +4,7 @@
 
 # testing file
 testing.R
+
+# saved data
+*.rds
+*.rda
