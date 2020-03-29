@@ -38,6 +38,10 @@ site_data %>%
   htmlwidgets::saveWidget(file = "test.html",
                           selfcontained = FALSE)
 
+# TODO
+# try to extract each site's MAP URL
+# try to extract other text elements that mention squirrel
+# fix GPS for no-show locations like Iroquois -- requires manual table match!
 
 seasons_data <-
   get_fact_sheet_html() %>%
