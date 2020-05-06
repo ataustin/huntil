@@ -12,7 +12,7 @@ get_site_url_data <- function(fact_sheet_url_data, species = "squirrel") {
                              site_table     = purrr::map(site_tables, select_table),
                              species_row    = purrr::map(site_table, reduce_table,
                                                          species = species),
-                             popup          = purrr::pmap_chr(list(site_name, url, species_row, lat, lon),
+                             popup          = purrr::pmap_chr(list(site_name, site_url, species_row, lat, lon),
                                                               build_popup))
 
   site_data

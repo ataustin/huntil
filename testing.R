@@ -4,6 +4,7 @@ library(dplyr)
 library(purrr)
 library(leaflet)
 library(htmltools)
+library(colorout)
 
 devtools::load_all()
 
@@ -13,15 +14,15 @@ devtools::load_all()
 load("site_data.rda")
 site_data$site_html <- lapply(site_data$site_html_char, xml2::read_html)
 
+site_data_patched <- impute_missing_coords(site_data)
+glimpse(site_data_patched)
 
-# Google maps directions FROM btfld & 53 TO site lat/lon
-# https://www.google.com/maps/dir/41.83119,-88.054425/41.20016,-87.9859/
+site_data_patched <- mutate(site_data_patched,
+                            popup = purrr::pmap_chr(list(site_name, url, species_row, lat, lon),
+                                                     build_popup))
 
-x <- site_data %>% mutate(popup          = purrr::pmap_chr(list(site_name, site_url, species_row, lat, lon),
-                                                              build_popup)
-)
-
-x %>%
+# make HTML map
+site_data_patched %>%
   filter(is_species) %>%
   leaflet() %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
@@ -30,12 +31,12 @@ x %>%
              label = ~site_name) %>%
   htmlwidgets::saveWidget(file = "test.html",
                           selfcontained = FALSE)
+ 
 
 # TODO
-# fix GPS for no-show locations like Iroquois -- requires manual table match!
-# use crosstalk to link DT and leaflet for selecting sites -- windshield card
 # get seasons data to display
 # get windshield card sites data
+  # use crosstalk to link DT and leaflet for selecting sites -- windshield card
 
 seasons_data <-
   get_fact_sheet_html() %>%
