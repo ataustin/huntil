@@ -1,6 +1,7 @@
-get_site_url_data <- function(fact_sheet_url_data, species = "squirrel") {
-  site_url_nested <- dplyr::mutate(fact_sheet_url_data,
-                                   site_url = purrr::map(region_url, get_region_url_data))
+get_site_data <- function(region_urls, species = "squirrel") {
+  region_url_data <- tibble::tibble(region_url = region_urls)
+  site_url_nested <- dplyr::mutate(region_url_data,
+                                   site_url = purrr::map(region_url, get_region_data))
   site_url_data   <- tidyr::unnest(site_url_nested, cols = site_url)
   
   site_data <- dplyr::mutate(site_url_data,
@@ -19,7 +20,7 @@ get_site_url_data <- function(fact_sheet_url_data, species = "squirrel") {
 }
 
 
-get_region_url_data <- function(region_url) {
+get_region_data <- function(region_url) {
   html             <- xml2::read_html(region_url)
   region_name_node <- rvest::html_node(html, xpath = "//div/div/h1")
   region_name      <- rvest::html_text(region_name_node)
