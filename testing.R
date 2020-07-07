@@ -9,22 +9,13 @@ library(colorout)
 devtools::load_all()
 
 # to refresh everything:
-# site_data <- build_hunting_site_data()
+site_data <- build_hunting_site_data()
 
 load("site_data.rda")
 site_data$site_html <- lapply(site_data$site_html_char, xml2::read_html)
 
-site_data_patched <- impute_missing_coords(site_data)
-glimpse(site_data_patched)
-
-site_data_patched <- mutate(site_data_patched,
-                            popup = purrr::pmap_chr(list(site_name, site_url, species_row, lat, lon),
-                                                     build_popup))
-
-list_unknown_sites(site_data, site_data_patched)
-
 # make HTML map
-site_data_patched %>%
+site_data %>%
   filter(is_species) %>%
   leaflet() %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
