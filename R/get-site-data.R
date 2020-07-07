@@ -3,7 +3,7 @@ get_site_data <- function(region_urls, species = "squirrel") {
   site_url_nested <- dplyr::mutate(region_url_data,
                                    site_url = purrr::map(region_url, get_region_data))
   site_url_data   <- tidyr::unnest(site_url_nested, cols = site_url)
-  
+
   site_data <- dplyr::mutate(site_url_data,
                              site_html      = purrr::map(site_url, get_site_html),
                              site_html_char = purrr::map_chr(site_html, as.character),
@@ -12,9 +12,7 @@ get_site_data <- function(region_urls, species = "squirrel") {
                              site_tables    = purrr::map(site_html, get_site_tables),
                              site_table     = purrr::map(site_tables, select_table),
                              species_row    = purrr::map(site_table, reduce_table,
-                                                         species = species),
-                             popup          = purrr::pmap_chr(list(site_name, site_url, species_row, lat, lon),
-                                                              build_popup))
+                                                         species = species))
 
   site_data
 }
@@ -118,51 +116,4 @@ reduce_table <- function(table, species = "squirrel") {
 clean_row <- function(row, which_col) {
   row[, which_col] <- gsub("1.*", "", row[, which_col])
   row
-}
-
-
-build_popup <- function(site_name, url, species_row, lat, lon) {
-  paste(popup_style(),
-    site_name,
-    popup_site_url(url),
-    popup_directions(lat, lon),
-    popup_site_species_datum(species_row),
-    sep = "<br/>"
-  )
-}
-
-
-popup_style <- function() {
-  "<style> div.leaflet-popup-content {width:auto !important;}</style>"
-}
-
-
-popup_site_url <- function(url) {
-  paste0('<b><a href="', url, '" target="_blank">Area Website</a></b><br/>')
-}
-
-
-popup_site_species_datum <- function(species_row) {
-  kbl <- knitr::kable(species_row, format = "html", row.names = FALSE)
-  as.character(kbl)
-}
-
-
-popup_directions <- function(lat, lon) {
-  url <- get_directions_url(lat, lon)
-  paste0('<b><a href="', url, '" target="_blank">Directions</a></b><br/>')
-}
-
-
-get_directions_url <- function(lat, lon) {
-  from_lat <- "41.83119"
-  from_lon <- "-88.054425"
-  url_base <- "https://www.google.com/maps/dir"
-  url_ext <- paste(paste(from_lat, from_lon, sep = ","),
-    paste(lat, lon, sep = ","),
-    sep = "/"
-  )
-  url_out <- paste(url_base, url_ext, sep = "/")
-
-  url_out
 }
