@@ -4,27 +4,21 @@ library(dplyr)
 library(purrr)
 library(leaflet)
 library(htmltools)
+library(rprojroot)
 library(colorout)
 
 devtools::load_all()
 
 # to refresh everything:
 site_data <- build_hunting_site_data()
+save_map_widget(site_data)
+
 
 load("site_data.rda")
 site_data$site_html <- lapply(site_data$site_html_char, xml2::read_html)
 
 # make HTML map
-site_data %>%
-  filter(is_species) %>%
-  leaflet() %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
-  addMarkers(~lon, ~lat,
-             popup = ~popup,
-             label = ~site_name) %>%
-  htmlwidgets::saveWidget(file = "test.html",
-                          selfcontained = FALSE)
- 
+
 
 # TODO
 # get windshield card sites data
