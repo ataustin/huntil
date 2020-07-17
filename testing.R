@@ -5,6 +5,8 @@ library(purrr)
 library(leaflet)
 library(htmltools)
 library(rprojroot)
+library(rmarkdown)
+library(DT)
 library(colorout)
 
 devtools::load_all()
@@ -23,8 +25,3 @@ site_data$site_html <- lapply(site_data$site_html_char, xml2::read_html)
 # TODO
 # get windshield card sites data
   # use crosstalk to link DT and leaflet for selecting sites -- windshield card
-
-seasons_data <-
-  get_fact_sheet_top_level_html() %>%
-  get_fact_sheet_url("statewide seasons") %>%
-  get_statewide_seasons_data()
