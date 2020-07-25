@@ -3,24 +3,14 @@ library(jsonlite)
 library(dplyr)
 library(purrr)
 library(leaflet)
-library(htmltools)
+#library(htmltools)
 library(rprojroot)
 library(rmarkdown)
-library(DT)
+library(usethis)
+library(flexdashboard)
 library(colorout)
 
 devtools::load_all()
-
-# to refresh everything:
-site_data <- build_hunting_site_data()
-save_map_widget(site_data)
-
-
-load("site_data.rda")
-site_data$site_html <- lapply(site_data$site_html_char, xml2::read_html)
-
-# make HTML map
-
 
 # TODO
 # get windshield card sites data

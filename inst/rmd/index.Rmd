@@ -1,0 +1,30 @@
+---
+title: "Squirrel Hunting Sites"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(huntil)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Site Map
+
+```{r}
+create_map_widget(site_data)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Statewide Seasons as of `r Sys.Date()`
+
+```{r}
+knitr::kable(seasons_data)
+```
